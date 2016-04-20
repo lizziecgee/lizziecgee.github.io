@@ -1,12 +1,12 @@
-// Read up about global and local scope (if you want)
-
+// Go to folder with github.io page, then type in: python -m SimpleHTTPServer
+// Open up browser to: localhost:8000
 var a = 10;
 console.log(a);
 
 //  https://data.sfgov.org/resource/w969-5mn4.json
 
 var request = new XMLHttpRequest();
-request.open('GET', 'https://data.sfgov.org/resource/w969-5mn4.json', true);
+request.open('GET', 'data.json', true);
 
 var liz = '';
 
